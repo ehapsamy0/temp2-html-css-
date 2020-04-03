@@ -1,0 +1,502 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+    
+}
+
+.clear{
+    clear:both;
+}
+
+/* Start NavBar  */
+.navbar{
+    width:100%;
+    height: 50px;
+    background:#960836;
+    
+}
+
+.navbar ul{
+    list-style: none;
+    text-align: center;
+    line-height: 50px;
+    margin:0;
+    padding:0;
+    
+}
+
+.navbar li{
+    display: inline-block;
+  
+}
+
+.navbar li a{
+    color: #ff0048;;
+    text-decoration: none;
+    margin-left:15px;
+    
+}
+
+.navbar ul li a.active{
+    color: #fff;
+}
+
+/*  End NavBar  */
+
+
+/* Start Slider  */
+
+
+.web{
+    width:100%;
+    height:600px;
+    background-image: url(../imges/cover.png);
+    background-size: cover;
+    text-align:center;
+    position:relative;
+
+}
+
+.web .folk{
+    margin-bottom:80px;
+    padding-top:80px;
+}
+
+
+.web .folk h2{
+    margin: 0;
+    padding: 0;
+    font-size:50px;
+    color: #fff;
+    text-transform:uppercase;
+}
+
+.web .folk p{
+    letter-spacing:10px;
+    font-size:25px;
+    color:#fff;
+
+}
+
+.web .dream p{
+    color:#fff;
+    font-size:25px;
+
+
+}
+
+
+.web .work{
+    position:absolute;
+    bottom:0;
+    color:#fff;
+    left:40%;
+    background:#ff0045;
+    padding:15px;
+    width:250px;
+    font-size:20px;
+    text-align:center;    
+}
+
+
+.web .work:after{
+    content:'';
+    border-top:20px solid #ff0045;
+    border-right:20px solid transparent;
+    border-left:20px solid transparent;
+    position:relative;
+    top:55px;
+    left:-70px;
+
+}
+
+/* End Slider */
+
+
+/*   Start Images   */
+
+.image{
+    width:100%;
+}
+
+.image .img{
+    width:25%;
+    height:252px;
+    background:url(../imges/image_1.jpg);
+    float:left;
+}
+
+
+.image .img .over{
+    width:100%;
+    height:100%;
+    background:rgba(0,0,0,0.5);
+    opacity:0;
+}
+
+
+.image .img:hover .over{
+    opacity:1;
+}
+
+
+.image .i_1{
+    background:url(../imges/image_2.jpg);
+}
+
+
+.image .i_2{
+    background:url(../imges/image_3.jpg);
+}
+
+
+.image .i_3{
+    background:url(../imges/image_4.jpg);
+}
+
+
+.image .i_4{
+    background:url(../imges/image_5.jpg);
+}  
+.image .i_5{
+    background:url(../imges/image_6.jpg);
+}
+
+
+.image .i_6{
+    background:url(../imges/image_7.jpg);
+}
+
+
+.image .i_7{
+    background:url(../imges/image_8.jpg);
+}
+
+
+.image .i_8{
+    background:url(../imges/image_9.jpg);
+}
+
+
+.image .i_9{
+    background:url(../imges/image_10.jpg);
+}
+
+
+.image .i_10{
+    background:url(../imges/image_11.jpg);
+}
+
+
+.image .i_11{
+    background:url(../imges/image_12.jpg);
+}
+
+
+/* End Image  */ 
+
+
+
+
+/* Start Meet The Folk */
+
+.meet{
+    width:100%;
+    height:auto;
+    position:relative;
+    text-align: center;
+    padding-bottom:20px;
+    background:#f5f5f5;
+
+}
+
+.meet .head{
+    position:absolute;
+    top:0;
+    background:#ff0048;
+    width:100%;
+    height:50px;
+    text-align: center;
+    color:#fff;
+    font-size:20px;
+    line-height:50px;
+    text-transform: uppercase;
+}
+
+.meet .head:after{
+    content:'';
+    border-top:20px solid #ff0045;
+    border-right:20px solid transparent;
+    border-left:20px solid transparent;
+    position:relative;
+    top:55px;
+    left:-70px;
+}
+
+.meet h2{
+    margin:0;
+    padding:8%;
+    color:#ff0048;
+    font-size:40px;
+    text-transform: uppercase;
+
+}
+
+.meet .meet-image{
+    display:inline-block;
+    margin-top:22px;
+}
+
+
+.meet .meet-image h3{
+    color:#ff0047;
+    font-size:25px;
+    letter-spacing:5px;
+
+}
+
+.meet button{
+    width:150px;
+    background:#000;
+    border:0;
+    color:#fff;
+    padding:10px;
+    cursor:pointer;
+
+}
+
+/* End Meet The Folk */
+
+/* Start End My page */
+
+.end{
+    width:100%;
+    text-align:center;
+    background-image:url(../imges/Cover_2.jpg);
+    height:auto;
+    
+}
+
+.end .content h2{
+    margin:0;
+    padding:0;
+    
+}
+
+.end .content{
+    width:400px;
+    display:inline-block;
+    color:#fff;
+    padding-top:7%;
+    margin-top:8%;
+    font-size:25px;
+    
+    
+}
+.end button{
+    margin-top:8%;
+    background-color: #fff;
+    border:0;
+    width:150px;
+    padding:15px;
+    color:#000;
+    cursor:pointer;
+}
+
+.end .bol{
+    text-align: center;
+    margin-top:10%;
+}
+
+.end .bol span{
+    width:10px;
+    height:10px;
+    display: inline-block;
+    background-color:#fff;
+    border-radius: 50%;
+    
+}
+
+
+.end .bol span:hover{
+    background-color: #ff0048;
+    opacity: 0.5;
+}
+
+/* End My End Page */
+
+/* Start Footer */
+.footer{
+    width:100%;
+    height: 80px;
+    text-align: center;
+    background-color: #ddd;
+    line-height: 80px;
+    font-size: 25px;
+    
+}
+
+/* End Footer */
+
+
+
+/********************************************** End This main page *********************************************************************/
+
+
+
+/********************************************** Satrt This Contact  page *********************************************************************/
+
+
+/* Start contact */
+
+
+
+
+
+.contact{
+    width:100%;
+    height:700px;;
+    background-image:url(../imges/coverPage2.PNG);
+    background-size: cover;
+    text-align:center;
+    padding-top:7%;
+    
+}
+
+.contact h2{
+    margin:0;
+    font-size:45px;
+    font-style: italic;
+}
+
+
+.contact p{
+    font-size: 25px;
+    
+}
+
+
+.contact .form{
+    width:500px;
+    height:400px;
+    margin: auto;
+    
+}
+
+
+.contact .form h2{
+    color:#ff0048;
+}
+
+
+.contact .form form input[type=text],textarea{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    height: 35px;
+    border:0;
+    background-color: #df1a5a;
+    color: #fff;
+    padding-left: 10px;
+    
+}
+
+
+textarea{
+    height:200px;
+}
+
+
+.contact .form form input[type=submit]{
+    float: right;
+    border: 0;
+    background: #fff;
+    padding: 10px;
+    cursor: pointer;
+}
+
+
+
+/* End Content */
+
+/* Start Become */
+
+
+.become{
+    width:100%;
+    height: 350px;
+    background: #f5f5f5;
+    text-align: center;
+    padding-top:2%;
+    
+    
+}
+.become h2{
+    margin: 0;
+    color: #df1a5a;
+    font-size:40px;
+    
+
+}
+
+.become p{
+    font-size:18px;
+    
+}
+
+
+/* end become */
+
+/***************************************************************  End Contact Page *******************************************/
+
+
+/*************************************** ************************** Start Book Page ************************************************/
+
+
+/* Start Book */
+
+
+.contact .cover{
+    width: 900px;
+    height: 400px;
+    background-color: #fff;
+    margin: auto;
+    padding-top: 5%;
+} 
+
+
+.contact .cover .left{
+    width: 45%;
+    float: left;
+    margin-left: 5%;
+    height: 252px;
+
+}
+
+
+.contact .cover .left img{
+    width: 100%;
+    
+}
+
+
+.contact .cover .right{
+    width: 45%;
+    float:right;
+    background: #eee;
+    margin-right: 5%;
+    height: 250px;
+    padding-top: 6%;
+    
+}
+
+
+
+.contact .cover .right button{
+    background-color: #000;
+    color: #fff;
+    border: 0;
+    padding: 10px;
+    cursor: pointer;
+}
